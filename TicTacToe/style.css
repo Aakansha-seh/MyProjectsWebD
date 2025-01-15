@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Jersey+15&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Fascinate+Inline&family=Jersey+15&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Fascinate+Inline&family=Festive&family=Jersey+15&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:   #722F37;
+    color: white;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+nav ul{
+    list-style-type: none;
+    font-family: "Jersey 15", cursive, sans-serif;
+}
+
+.game-container{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    font-family: "Jersey 15";
+
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.box:hover{
+    background-color: rgb(220, 207, 232);
+    cursor: pointer;
+}
+
+h1{
+    font-family: "Fascinate Inline";
+    margin: 10px;
+}
+
+.info{
+    margin-left: 20px;
+    font-family: "Baloo Bhai 2";
+    font-size: 20px;
+
+}
+
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+#reset{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 50px;
+    margin: 20px;
+}
